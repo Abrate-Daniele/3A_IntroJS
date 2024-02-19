@@ -1,0 +1,14 @@
+ul{
+    display: none;
+}
+header>button:focus + ul, ul:hover{
+    display: block;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    height: 100vh;
+}
