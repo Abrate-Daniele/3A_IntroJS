@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="it">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Intro JS</title>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <header>
-            <button>
-                MENU
-            </button>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Pagina 1</a></li>
-            </ul>
-        </header>
-        <main>
-            <input type="text" id="txtUtente">
-            <input type="password">
-            <button id="btnAccedi">Accedi</button>
-        </main>
-        <footer>
-            Creato dalla 3A INF
-        </footer>
-        <script src="pag2.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro JS</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- COLLEGAMENTO AL JS -->
+    <script src="pag2.js"></script>
+</head>
+<body onload="init()">
+    <header>
+        <button>
+            MENU
+        </button>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Pagina 2</a></li>
+        </ul>
+    </header>
+    <main>
+        <input type="text" id="txtUtente">
+        <input type="password" placeholder="Inserisci password">
+        <button id="btnAccedi" onclick="accedi()">Accedi</button>
+    </main>
+    <footer>
+        Creato dalla 3 A INF
+    </footer>
+</body>
 </html>
